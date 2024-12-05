@@ -20,9 +20,15 @@ PLEASE NOTE THAT THE FDMS IS A STATEFUL SYSTEM, SO YOU NEED TO KEEP TRACK OF THE
 To use this client, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/lordskyzw/zimra-publib.git
-cd zimra
+git clone https://github.com/lordskyzw/zimra-public.git
+cd zimra-public
 pip install -r requirements.txt
+```
+
+Or you can just pip install from pypi
+
+```bash
+pip install zimra
 ```
 
 ## Usage
