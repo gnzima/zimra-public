@@ -89,7 +89,7 @@ example_invoice = {
 
 receipt = device.prepareReceipt(example_invoice) # this method does all the heavy lifting for you
 
-receipt_status = device.submitReceipt(receipt_data) # this method submits the receipt to the fiscal device management system and if the receipt has no errors, a QR url is returned which can be used to make the qr code to be printed on receipt, otherwise it returns the error message
+receipt_status = device.submitReceipt(receipt) # this method submits the receipt to the fiscal device management system and if the receipt has no errors, a QR url is returned which can be used to make the qr code to be printed on receipt, otherwise it returns the error message
 print(receipt_status)
 ```
 
