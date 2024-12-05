@@ -1,7 +1,7 @@
 this is my in house library for interacting with Zimra's FDMS system 
-# Fiscal Device Gateway API Client
+# Fiscal Device Management System (FDMS) API Client
 
-This repository provides a Python client for interacting with the Fiscal Device Gateway API provided by ZIMRA. The client can be used to manage various operations related to fiscal devices, such as registering a device, fetching configurations, issuing certificates, and handling fiscal day operations.
+This repository provides a Python client for interacting with the Fiscal Device Gateway API (aka FDMS) provided by ZIMRA. The client can be used to manage various operations related to fiscal devices, such as registering a device, fetching configurations, issuing certificates, and handling fiscal day operations.
 
 PLEASE NOTE THAT THE FDMS IS A STATEFUL SYSTEM, SO YOU NEED TO KEEP TRACK OF THE FISCAL DAY NUMBER AND THE RECEIPT COUNTERS. THE CLIENT DOES NOT KEEP TRACK OF THESE FOR YOU
 
